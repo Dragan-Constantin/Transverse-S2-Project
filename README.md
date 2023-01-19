@@ -1,9 +1,9 @@
-<a href="https://github.com/Dragan-Constantin/Project-Template/" target="_blank"><p align="center"> <img alt="GitPoint" title="GameTitle" src="https://preview.redd.it/gb0vk8b5yfr61.png?width=928&format=png&auto=webp&s=ba11a7804fafaedf8edbf10c85c3ff802ef973dc" width="225"></p></a>
+<a href="https://github.com/Dragan-Constantin/Transverse-S2-Project/" target="_blank"><p align="center"> <img alt="GitPoint" title="GameTitle" src="https://preview.redd.it/gb0vk8b5yfr61.png?width=928&format=png&auto=webp&s=ba11a7804fafaedf8edbf10c85c3ff802ef973dc" width="225"></p></a>
 
 <p align="center"><b>A 2D indie game built with Godot</b></p><br>
 <p align="center">
-  <img align="center" alt="GitHub all releases" src="https://img.shields.io/github/downloads/Dragan-Constantin/Project-Solerium/total?style=for-the-badge">
-  <img align="center" alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Dragan-Constantin/Project-Solerium?color=brightgreen&label=Size&style=for-the-badge">
+  <img align="center" alt="GitHub all releases" src="https://img.shields.io/github/downloads/Dragan-Constantin/Transverse-S2-Project/total?style=for-the-badge">
+  <img align="center" alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Dragan-Constantin/Transverse-S2-Project?color=brightgreen&label=Size&style=for-the-badge">
   <img align="center" alt="Platforms" src="https://img.shields.io/badge/Platform-windows%20%20%7C%20%20linux-lightgrey?style=for-the-badge">
 </p>
 
@@ -72,11 +72,15 @@ This is the run command
 <h2 align="left">🕹 Usage</h2>
 Use the arrow keys to move:
 Use arrow keys to move on canvas:<br>
-  • <kbd>➡️</kbd> move right<br>
+<!--  • <kbd>➡️</kbd> move right<br>
   • <kbd>⬅️</kbd> move left<br>
   • <kbd>⬆️</kbd> move up<br>
-  • <kbd>⬇️</kbd> move down<br>
-and <kbd><b>space</b></kbd> bar to jump and <kbd><b>f</b></kbd> to shoot
+  • <kbd>⬇️</kbd> move down<br>-->
+  • <kbd>z</kbd> move right<br>
+  • <kbd>q</kbd> move left<br>
+  • <kbd>d</kbd> move up<br>
+  • <kbd>s</kbd> move down<br>
+and <kbd><b>space</b></kbd> bar to jump and <kbd><b>f</b></kbd> to attack.
 
 <br><br>
 <h2 align="left">📜 License</h2>
@@ -89,19 +93,10 @@ Uses <a href="link to License" target="_blank"><i>Insert License</i></a>
   <a href="https://www.linkedin.com/in/dragan-constantin" target="_blank">
     <img align="center" alt="LinkedIn Profile" width="16px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/linkedin-icon.png?token=AWLZ6NKTBE2KIUVET24RFFTB2RWYS">
   </a>
-<a href="mailto:constantin.dragan@efrei.net?cc=isabelle.somphone@efrei.net
-&subject=S1%20Programming%20Project%20(Tetris)
+<a href="mailto:constantin.dragan@efrei.net?cc=firstname.lastname@efrei.net
+&subject=Game%20Title
 &body=%0A-----------%0APlease%20indicate%20your%20name%20and%20surname%20and%20how%20you%20came%20to%20find%20this%20repository.%0AIf%20your%20are,%20or%20were,%20a%20student%20at%20EFREI,%20please%20indicate%20your%20class%20(along%20with%20the%20section)%0A%0AThank%20you%20in%20advance,%0AThis%20project's%20dev%20team.%0A-----------%0A%0A" target="_blank">
     <img align="center" alt="LinkedIn Profile" width="16px" src="https://raw.githubusercontent.com/Ollianels/myicons/main/mail-icon.png">
   </a><br>
 <br>
-  • Poinama Samuel:
-  <a href="https://www.linkedin.com/in/isabelle-somphone-320258252/" target="_blank">
-    <img align="center" alt="LinkedIn Profile" width="16px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/linkedin-icon.png?token=AWLZ6NKTBE2KIUVET24RFFTB2RWYS">
-  </a>
-<a href="mailto:isabelle.somphone@efrei.net?cc=constantin.dragan@efrei.net
-&subject=S1%20Programming%20Project%20(Tetris)
-&body=%0A-----------%0APlease%20indicate%20your%20name%20and%20surname%20and%20how%20you%20came%20to%20find%20this%20repository.%0AIf%20your%20are,%20or%20were,%20a%20student%20at%20EFREI,%20please%20indicate%20your%20class%20(along%20with%20the%20section)%0A%0AThank%20you%20in%20advance,%0AThis%20project's%20dev%20team.%0A-----------%0A%0A" target="_blank">
-    <img align="center" alt="LinkedIn Profile" width="16px" src="https://raw.githubusercontent.com/Ollianels/myicons/main/mail-icon.png">
-  </a><br>
 </p>
