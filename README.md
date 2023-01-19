@@ -96,13 +96,63 @@ This program has been written under the following <a href="https://github.com/Dr
 <h2 align="left">Credits</h2>
 <p align="left">
   • Dragan Constantin:
-  <a href="https://www.linkedin.com/in/dragan-constantin" target="_blank">
+  <a href="https://www.linkedin.com/in/dragan-constantin/" target="_blank">
     <img align="center" alt="LinkedIn Profile" width="16px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/linkedin-icon.png?token=AWLZ6NKTBE2KIUVET24RFFTB2RWYS">
   </a>
 <a href="mailto:constantin.dragan@efrei.net?cc=firstname.lastname@efrei.net
-&subject=Game%20Title
+&subject=Project%20Horizon
 &body=%0A-----------%0APlease%20indicate%20your%20name%20and%20surname%20and%20how%20you%20came%20to%20find%20this%20repository.%0AIf%20your%20are,%20or%20were,%20a%20student%20at%20EFREI,%20please%20indicate%20your%20class%20(along%20with%20the%20section)%0A%0AThank%20you%20in%20advance,%0AThe%20Team%20at%20StudioName.%0A-----------%0A%0A" target="_blank">
-    <img align="center" alt="LinkedIn Profile" width="16px" src="https://raw.githubusercontent.com/Ollianels/myicons/main/mail-icon.png">
+    <img align="center" alt="E-Mail" width="16px" src="https://raw.githubusercontent.com/Ollianels/myicons/main/mail-icon.png">
+  </a><br>
+<br>
+  • Benadjaoud Amar Adam:
+  <a href="https://www.linkedin.com/in/amar-adam-benadjaoud-29604b252/" target="_blank">
+    <img align="center" alt="LinkedIn Profile" width="16px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/linkedin-icon.png?token=AWLZ6NKTBE2KIUVET24RFFTB2RWYS">
+  </a>
+<a href="mailto:amar-adam.benadjaoud@efrei.net?cc=firstname.lastname@efrei.net
+&subject=Project%20Horizon
+&body=%0A-----------%0APlease%20indicate%20your%20name%20and%20surname%20and%20how%20you%20came%20to%20find%20this%20repository.%0AIf%20your%20are,%20or%20were,%20a%20student%20at%20EFREI,%20please%20indicate%20your%20class%20(along%20with%20the%20section)%0A%0AThank%20you%20in%20advance,%0AThe%20Team%20at%20StudioName.%0A-----------%0A%0A" target="_blank">
+    <img align="center" alt="E-Mail" width="16px" src="https://raw.githubusercontent.com/Ollianels/myicons/main/mail-icon.png">
+  </a><br>
+<br>
+  • L'Azou Enora:
+  <a href="https://www.linkedin.com/in/enora-l-azou-a37913251/" target="_blank">
+    <img align="center" alt="LinkedIn Profile" width="16px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/linkedin-icon.png?token=AWLZ6NKTBE2KIUVET24RFFTB2RWYS">
+  </a>
+<a href="mailto:enora.l.azou@efrei.net@efrei.net?cc=firstname.lastname@efrei.net
+&subject=Project%20Horizon
+&body=%0A-----------%0APlease%20indicate%20your%20name%20and%20surname%20and%20how%20you%20came%20to%20find%20this%20repository.%0AIf%20your%20are,%20or%20were,%20a%20student%20at%20EFREI,%20please%20indicate%20your%20class%20(along%20with%20the%20section)%0A%0AThank%20you%20in%20advance,%0AThe%20Team%20at%20StudioName.%0A-----------%0A%0A" target="_blank">
+    <img align="center" alt="E-Mail" width="16px" src="https://raw.githubusercontent.com/Ollianels/myicons/main/mail-icon.png">
+  </a><br>
+<br>
+  • Cerruti Maxime:
+  <a href="https://www.linkedin.com/in/maxime-cerruti-b4557823a/" target="_blank">
+    <img align="center" alt="LinkedIn Profile" width="16px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/linkedin-icon.png?token=AWLZ6NKTBE2KIUVET24RFFTB2RWYS">
+  </a>
+<a href="mailto:maxime.cerruti@efrei.net?cc=firstname.lastname@efrei.net
+&subject=Project%20Horizon
+&body=%0A-----------%0APlease%20indicate%20your%20name%20and%20surname%20and%20how%20you%20came%20to%20find%20this%20repository.%0AIf%20your%20are,%20or%20were,%20a%20student%20at%20EFREI,%20please%20indicate%20your%20class%20(along%20with%20the%20section)%0A%0AThank%20you%20in%20advance,%0AThe%20Team%20at%20StudioName.%0A-----------%0A%0A" target="_blank">
+    <img align="center" alt="E-Mail" width="16px" src="https://raw.githubusercontent.com/Ollianels/myicons/main/mail-icon.png">
+  </a><br>
+<br>
+  • Garbus Charles:
+  <a href="https://www.linkedin.com/in/charles-garbus-986103249/" target="_blank">
+    <img align="center" alt="LinkedIn Profile" width="16px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/linkedin-icon.png?token=AWLZ6NKTBE2KIUVET24RFFTB2RWYS">
+  </a>
+<a href="mailto:charles.garbus@efrei.net?cc=firstname.lastname@efrei.net
+&subject=Project%20Horizon
+&body=%0A-----------%0APlease%20indicate%20your%20name%20and%20surname%20and%20how%20you%20came%20to%20find%20this%20repository.%0AIf%20your%20are,%20or%20were,%20a%20student%20at%20EFREI,%20please%20indicate%20your%20class%20(along%20with%20the%20section)%0A%0AThank%20you%20in%20advance,%0AThe%20Team%20at%20StudioName.%0A-----------%0A%0A" target="_blank">
+    <img align="center" alt="E-Mail" width="16px" src="https://raw.githubusercontent.com/Ollianels/myicons/main/mail-icon.png">
+  </a><br>
+<br>
+  • Lajous Harold:
+  <a href="https://www.linkedin.com/in/harold-lajous-02a374233/" target="_blank">
+    <img align="center" alt="LinkedIn Profile" width="16px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/linkedin-icon.png?token=AWLZ6NKTBE2KIUVET24RFFTB2RWYS">
+  </a>
+<a href="mailto:harold.lajous@efrei.net?cc=firstname.lastname@efrei.net
+&subject=Project%20Horizon
+&body=%0A-----------%0APlease%20indicate%20your%20name%20and%20surname%20and%20how%20you%20came%20to%20find%20this%20repository.%0AIf%20your%20are,%20or%20were,%20a%20student%20at%20EFREI,%20please%20indicate%20your%20class%20(along%20with%20the%20section)%0A%0AThank%20you%20in%20advance,%0AThe%20Team%20at%20StudioName.%0A-----------%0A%0A" target="_blank">
+    <img align="center" alt="E-Mail" width="16px" src="https://raw.githubusercontent.com/Ollianels/myicons/main/mail-icon.png">
   </a><br>
 <br>
 </p>
