@@ -1,5 +1,6 @@
 <a href="https://github.com/Dragan-Constantin/Transverse-S2-Project/" target="_blank"><p align="center"> <img alt="GitPoint" title="GameTitle" src="https://preview.redd.it/gb0vk8b5yfr61.png?width=928&format=png&auto=webp&s=ba11a7804fafaedf8edbf10c85c3ff802ef973dc" width="225"></p></a>
 
+<p align="center"><b>Projet Horizon</b></p>
 <p align="center"><b>A 2D indie game built with Godot</b></p><br>
 <p align="center">
   <img align="center" alt="GitHub all releases" src="https://img.shields.io/github/downloads/Dragan-Constantin/Transverse-S2-Project/total?style=for-the-badge">
@@ -23,7 +24,7 @@
 
 <br>
 <h2 align="left">About the Game</h2>
-<i>Game Title</i> is a 2D indie platformer game built using the Godot Engine.
+Project Horizon is a 2D indie platformer game built using the Godot Engine.
 It was first created for a school project at <a href="https://www.efrei.fr/" target="_blank">EFREI Paris</a>.<br>
 Enjoy the gameplay! 😄
 
@@ -35,15 +36,15 @@ Enjoy the gameplay! 😄
 
 <br>
 <h2 align="left">💽 Installation</h2>
-<!-- <h3 align="left">&emsp;&ensp; ► &nbsp;Windows</h3> -->
+<!-- <h3 align="left">   ►  Windows</h3> -->
 <h3 align="left">
-  &emsp;&emsp;
+    
   <img align="center" alt="Windows" width="20px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/windows-icon.png?token=AWLZ6NLVQKJJSI7EM76PCJDB2RTAO">
-  &nbsp;Windows
+   Windows
 </h3>
 <p align="left">
-  It is recommended to install <i>Game Title</i> using the installation package
-  (<i>GameTitle</i>-Setup-X.Y.Z.exe).
+  It is recommended to install Project Horizon using the installation package
+  (Horizon-Setup-X.Y.Z.exe).
   However you can just as well download the .zip folder with the game files.
 </p>
 <br>
@@ -60,15 +61,18 @@ This is the install command
 # Run the game
 This is the run command
 ```
-<br><br>
+
+`<br>`
+
 <h3 align="left">
-  &emsp;&emsp;
+    
   <img align="center" alt="Windows" width="22px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/linux-icon.png?token=AWLZ6NOIB3R2LJMSP5VBLV3B2RVXE">
-  &nbsp;Linux
+   Linux
 </h3>
 <i>To be implemented</i>
 
-<br><br>
+`<br><br>`
+
 <h2 align="left">🕹 Usage</h2>
 Use the arrow keys to move:
 Use arrow keys to move on canvas:<br>
@@ -82,9 +86,11 @@ Use arrow keys to move on canvas:<br>
   • <kbd>s</kbd> move down<br>
 and <kbd><b>space</b></kbd> bar to jump and <kbd><b>f</b></kbd> to attack.
 
-<br><br>
+`<br><br>`
+
 <h2 align="left">📜 License</h2>
-Uses <a href="link to License" target="_blank"><i>Insert License</i></a>
+This program has been written under the following <a href="https://github.com/Dragan-Constantin/Transverse-S2-Project/blob/main/LICENSE" target="_blank">license</a>
+
 
 <br>
 <h2 align="left">Credits</h2>
