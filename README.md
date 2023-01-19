@@ -1,6 +1,6 @@
 <a href="https://github.com/Dragan-Constantin/Transverse-S2-Project/" target="_blank"><p align="center"> <img alt="GitPoint" title="GameTitle" src="https://preview.redd.it/gb0vk8b5yfr61.png?width=928&format=png&auto=webp&s=ba11a7804fafaedf8edbf10c85c3ff802ef973dc" width="225"></p></a>
 
-<p align="center"><b>Projet Horizon</b></p>
+<p align="center"><b>Project Horizon</b></p>
 <p align="center"><b>A 2D indie game built with Godot</b></p><br>
 <p align="center">
   <img align="center" alt="GitHub all releases" src="https://img.shields.io/github/downloads/Dragan-Constantin/Transverse-S2-Project/total?style=for-the-badge">
