@@ -62,7 +62,7 @@ This is the install command
 This is the run command
 ```
 
-`<br>`
+<br>
 
 <h3 align="left">
     
@@ -71,7 +71,7 @@ This is the run command
 </h3>
 <i>To be implemented</i>
 
-`<br><br>`
+<br><br>
 
 <h2 align="left">🕹 Usage</h2>
 Use the arrow keys to move:
