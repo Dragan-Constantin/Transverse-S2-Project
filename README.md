@@ -86,7 +86,7 @@ Use arrow keys to move on canvas:<br>
   • <kbd>s</kbd> move down<br>
 and <kbd><b>space</b></kbd> bar to jump and <kbd><b>f</b></kbd> to attack.
 
-`<br><br>`
+<br><br>
 
 <h2 align="left">📜 License</h2>
 This program has been written under the following <a href="https://github.com/Dragan-Constantin/Transverse-S2-Project/blob/main/LICENSE" target="_blank">license</a>
