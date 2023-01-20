@@ -30,8 +30,8 @@ Amusez-vous! 😄
 
 <p align="center">
   <img align="center" alt="Website" width="18px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/yellow-globe-icon.png?token=AWLZ6NKYWPDI7QBJS4EPMOLB2RNHO">
-  <a href="link to website" target="_blank">Website</a> | 📖
-  <a href="link to wiki" target="_blank">Manual</a>
+  <a href="link to website" target="_blank">Site</a> | 📖
+  <a href="link to wiki" target="_blank">Manuel</a>
 </p>
 
 <br>
@@ -51,14 +51,13 @@ Dans le cas où vous choisiriez d'installer le jeu avec le fichier d'installatio
 <br>
 
 Dans le cas où vous choisiriez d'installer le jeu depuis le dossier contenant les fichiers du jeu, il suffit d'exécuter les commandes suivantes depuis le `terminal` ou depuis `PowerShell`:
-from the `command line` or from `PowerShell`:
 
 ```bash
-# Install the required libraries:
-This is the install command
+# Installer les librairies requises:
+Ceci est la commande d'installation
 
-# Run the game
-This is the run command
+# Lancer le jeu
+Ceci est la commande pour lancer le jeu
 ```
 
 <br>
