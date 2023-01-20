@@ -1,32 +1,32 @@
 <a href="https://github.com/Dragan-Constantin/Transverse-S2-Project/" target="_blank"><p align="center"> <img alt="GitPoint" title="GameTitle" src="https://preview.redd.it/gb0vk8b5yfr61.png?width=928&format=png&auto=webp&s=ba11a7804fafaedf8edbf10c85c3ff802ef973dc" width="225"></p></a>
 
-<p align="center"><b>Project Horizon</b></p>
-<p align="center"><b>A 2D indie game built with Godot</b></p><br>
+<p align="center"><b>Projet Horizon</b></p>
+<p align="center"><b>Un jeu indépendant en 2D réalisé avec Godot</b></p><br>
 <p align="center">
   <img align="center" alt="GitHub all releases" src="https://img.shields.io/github/downloads/Dragan-Constantin/Transverse-S2-Project/total?style=for-the-badge">
   <img align="center" alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Dragan-Constantin/Transverse-S2-Project?color=brightgreen&label=Size&style=for-the-badge">
   <img align="center" alt="Platforms" src="https://img.shields.io/badge/Platform-windows%20%20%7C%20%20linux-lightgrey?style=for-the-badge">
 </p>
 
-<h2 align="left">Downloads</h2>
+<h2 align="left">Téléchargements</h2>
 <p align="left">
-  • <a href="link" target="_blank">Latest release</a><br>
-  • <a href="link" target="_blank">Latest nightly build</a><br>
+  • <a href="link" target="_blank">Dernière version stable</a><br>
+  • <a href="link" target="_blank">Dernière version nightly</a><br>
 </p>
-<p align="center">This README is also available in:
+<p align="center">Ce README est également disponible en :
   <img align="center" alt="French Flag" width="18px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/flag-France.png?token=AWLZ6NKLYR42NJENNEPLOQLB2RO5U">
-  <a href="link to README_Fr" target="_blank">French</a> |
+  <a href="link to README_Fr" target="_blank">Français</a> |
   <img align="center" alt="German Flag" width="18px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/flag-Deutschland.png?token=AWLZ6NKAZF6RRW3UNZEFGL3B2RPAI">
-  <a href="link to README_De" target="_blank">German</a> |
+  <a href="link to README_De" target="_blank">Allemand</a> |
   <img align="center" alt="Romanian Flag" width="18px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/flag-Romania.png?token=AWLZ6NL6PTFAXRU3BJTLK6LB2RO3G">
-  <a href="link to README_Ro" target="_blank">Romanian</a>
+  <a href="link to README_Ro" target="_blank">Roumain</a>
 </p>
 
 <br>
-<h2 align="left">About the Game</h2>
-Project Horizon is a 2D indie platformer game built using the Godot Engine.
-It was first created for a school project at <a href="https://www.efrei.fr/" target="_blank">EFREI Paris</a>.<br>
-Enjoy the gameplay! 😄
+<h2 align="left">À propos du jeu</h2>
+Projet Horizon est un jeu de plateforme indépendant en 2D tournant avec le moteur de jeu Godot.
+Il fut en premier lieu créé pour un projet d'étude à <a href="https://www.efrei.fr/" target="_blank">EFREI Paris</a>.<br>
+Amusez-vous! 😄
 
 <p align="center">
   <img align="center" alt="Website" width="18px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/yellow-globe-icon.png?token=AWLZ6NKYWPDI7QBJS4EPMOLB2RNHO">
@@ -43,15 +43,14 @@ Enjoy the gameplay! 😄
    Windows
 </h3>
 <p align="left">
-  It is recommended to install Project Horizon using the installation package
-  (Horizon-Setup-X.Y.Z.exe).
-  However you can just as well download the .zip folder with the game files.
+  Il est recommendé d'installer Projet Horizon à partir de son fichier d'installation (Horizon-Setup-X.Y.Z.exe).
+  Cependant, vous pouvez tout aussi bien télécharger le fichier compressé (.zip) contenant les fichiers du jeu.
 </p>
 <br>
-Should you choose to install the game with the setup.exe file, just execute it and follow the given instructions.
+Dans le cas où vous choisiriez d'installer le jeu avec le fichier d'installation, il vous suffit d'exécuter ce dernier et de suivre les instructions données.
 <br>
 
-If you choose to run the game with the unzipped game files, go to your unzipped file and run the following commands
+Dans le cas où vous choisiriez d'installer le jeu depuis le dossier contenant les fichiers du jeu, il suffit d'exécuter les commandes suivantes depuis le `terminal` ou depuis `PowerShell`:
 from the `command line` or from `PowerShell`:
 
 ```bash
@@ -69,31 +68,31 @@ This is the run command
   <img align="center" alt="Windows" width="22px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/linux-icon.png?token=AWLZ6NOIB3R2LJMSP5VBLV3B2RVXE">
    Linux
 </h3>
-<i>To be implemented</i>
+<i>À implémenter</i>
 
 <br><br>
 
 <h2 align="left">🕹 Usage</h2>
-<!--Use the arrow keys to move on canvas:<br>-->
-Use the zqsd keys to move on canvas:<br>
+<!--Utilisez les flèches du clavier pour se déplacer:<br>-->
+Utilisez les touches zqsd du clavier pour se déplacer:<br>
 <!--  • <kbd>➡️</kbd> move right<br>
   • <kbd>⬅️</kbd> move left<br>
   • <kbd>⬆️</kbd> move up<br>
   • <kbd>⬇️</kbd> move down<br>-->
-  • <kbd>z</kbd> move right<br>
-  • <kbd>q</kbd> move left<br>
-  • <kbd>d</kbd> move up<br>
-  • <kbd>s</kbd> move down<br>
-and <kbd><b>space</b></kbd> bar to jump and <kbd><b>f</b></kbd> to attack or interact.
+  • <kbd>z</kbd> aller en haut<br>
+  • <kbd>q</kbd> aller à gauche<br>
+  • <kbd>d</kbd> aller à droite<br>
+  • <kbd>s</kbd> aller en bas<br>
+et la barre <kbd><b>espace</b></kbd> pour sauter et <kbd><b>f</b></kbd> pour attaquer ou interagir.
 
 <br><br>
 
-<h2 align="left">📜 License</h2>
-This program has been written under the following <a href="https://github.com/Dragan-Constantin/Transverse-S2-Project/blob/main/LICENSE" target="_blank">license</a>
+<h2 align="left">📜 Licence</h2>
+Ce programme a été Ce programme a été écrit sous la <a href="https://github.com/Dragan-Constantin/Transverse-S2-Project/blob/main/LICENSE" target="_blank">licence suivante</a>
 
 
 <br>
-<h2 align="left">Credits</h2>
+<h2 align="left">Crédits</h2>
 <p align="left">
   • Dragan Constantin:
   <a href="https://www.linkedin.com/in/dragan-constantin/" target="_blank">
