@@ -15,7 +15,7 @@
 </p>
 <p align="center">Ce README est également disponible en :
   <img align="center" alt="French Flag" width="18px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/flag-France.png?token=AWLZ6NKLYR42NJENNEPLOQLB2RO5U">
-  <a href="[link to README_Fr](https://github.com/Dragan-Constantin/Transverse-S2-Project/blob/main/README_Fr.md)" target="_blank">Français</a> |
+  <a href="https://github.com/Dragan-Constantin/Transverse-S2-Project/blob/main/README_Fr.md" target="_blank">Français</a> |
   <img align="center" alt="German Flag" width="18px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/flag-Deutschland.png?token=AWLZ6NKAZF6RRW3UNZEFGL3B2RPAI">
   <a href="link to README_De" target="_blank">Allemand</a> |
   <img align="center" alt="Romanian Flag" width="18px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/flag-Romania.png?token=AWLZ6NL6PTFAXRU3BJTLK6LB2RO3G">
