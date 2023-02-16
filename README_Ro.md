@@ -19,7 +19,7 @@
   <img align="center" alt="German Flag" width="18px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/flag-Deutschland.png">
   <a href="https://github.com/Dragan-Constantin/Transverse-S2-Project/blob/main/README_De.md" target="_blank">Germană</a> |
   <img align="center" alt="UK Flag" width="18px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/flag-UnitedKingdom.png">
-  <a href="https://github.com/Dragan-Constantin/Transverse-S2-Project/blob/main/README_Ro.md" target="_blank">Engleză</a>
+  <a href="https://github.com/Dragan-Constantin/Transverse-S2-Project/blob/main/README.md" target="_blank">Engleză</a>
 </p>
 
 <br>
