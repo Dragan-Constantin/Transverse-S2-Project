@@ -75,9 +75,9 @@ This is the run command
 
 <h2 align="left">🕹 Usage</h2>
 <!--Use the arrow keys to move on canvas:<br>-->
-Use the zqsd keys to move on canvas:<br>
-  • <kbd>z</kbd> move up<br>
-  • <kbd>q</kbd> move left<br>
+Use the wasd keys to move on canvas:<br>
+  • <kbd>w</kbd> move up<br>
+  • <kbd>a</kbd> move left<br>
   • <kbd>s</kbd> move down<br>
   • <kbd>d</kbd> move right<br>
 and <kbd><b>space</b></kbd> bar to jump and <kbd><b>f</b></kbd> to attack or interact.
