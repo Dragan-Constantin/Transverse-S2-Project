@@ -78,8 +78,8 @@ This is the run command
 Use the zqsd keys to move on canvas:<br>
   • <kbd>z</kbd> move up<br>
   • <kbd>q</kbd> move left<br>
-  • <kbd>d</kbd> move right<br>
   • <kbd>s</kbd> move down<br>
+  • <kbd>d</kbd> move right<br>
 and <kbd><b>space</b></kbd> bar to jump and <kbd><b>f</b></kbd> to attack or interact.
 
 <br><br>
