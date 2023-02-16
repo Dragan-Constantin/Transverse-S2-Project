@@ -14,11 +14,11 @@
   • <a href="link" target="_blank">Neueste Nachtversion</a><br>
 </p>
 <p align="center">Diese README ist auch auf [  ] verfügbar:
-  <img align="center" alt="French Flag" width="18px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/flag-France.png?token=AWLZ6NKLYR42NJENNEPLOQLB2RO5U">
+  <img align="center" alt="French Flag" width="18px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/flag-France.png">
   <a href="link to README_Fr" target="_blank">Französisch</a> |
-  <img align="center" alt="UK Flag" width="18px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/flag-Deutschland.png?token=AWLZ6NKAZF6RRW3UNZEFGL3B2RPAI">
+  <img align="center" alt="UK Flag" width="18px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/flag-UnitedKingdom.png">
   <a href="https://github.com/Dragan-Constantin/Transverse-S2-Project/blob/main/README.md" target="_blank">Englisch</a> |
-  <img align="center" alt="Romanian Flag" width="18px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/flag-Romania.png?token=AWLZ6NL6PTFAXRU3BJTLK6LB2RO3G">
+  <img align="center" alt="Romanian Flag" width="18px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/flag-Romania.png">
   <a href="link to README_Ro" target="_blank">Rumänisch</a>
 </p>
 
