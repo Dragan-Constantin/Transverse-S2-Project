@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://byln88eni63fg"]
+
+[ext_resource type="TileSet" uid="uid://dmyvoryuamr7x" path="res://Scenes/tilesets/trunks.tres" id="1_xv716"]
+
+[node name="Trunks" type="TileMap"]
+tile_set = ExtResource("1_xv716")
+format = 2

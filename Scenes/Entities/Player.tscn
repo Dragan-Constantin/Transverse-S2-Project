@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://eikr8esi7an3"]
+
+[ext_resource type="SpriteFrames" uid="uid://dley03wocnt6g" path="res://Ressources/SpriteFrames/Player.tres" id="1_kwl2t"]
+[ext_resource type="Script" path="res://Ressources/Scripts/Player.gd" id="1_wgkwd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fcpxx"]
+size = Vector2(16, 34.5)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_wgkwd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -17)
+shape = SubResource("RectangleShape2D_fcpxx")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -21)
+scale = Vector2(1.32813, 1.32813)
+sprite_frames = ExtResource("1_kwl2t")
+animation = &"fall"
+
+[node name="trajectory" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
