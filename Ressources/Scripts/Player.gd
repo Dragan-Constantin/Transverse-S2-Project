@@ -3,6 +3,8 @@ extends CharacterBody2D
 signal balistaOn
 signal balistaOff
 
+
+
 const SPEED = 150.0
 const RUN_SPEED = 300.0
 const ACCELERATION = 500.0
@@ -16,7 +18,7 @@ const states = {
 	attached = 1,
 	launched = 2
 }
-const trajectorySpotCount = 10
+const trajectorySpotCount = 5
 const trajectoryTimeStep = .1
 const spotScene = preload("res://Scenes/utilities/Spot.tscn")
 
@@ -46,6 +48,12 @@ func _physics_process(delta: float) -> void:
 	handle_states(delta)
 	
 	
+func cameraZoom(delta):
+	$PlayerCamera.zoom_x = lerp(1.0, $PlayerCamera.zoom_x, pow(2, -30 * delta))
+	$PlayerCamera.zoom_y = lerp(1.0, $PlayerCamera.zoom_y, pow(2, -30 * delta))
+func cameraUnZoom(delta):
+	$PlayerCamera.zoom_x = lerp(.5, $PlayerCamera.zoom_x, pow(2, -30 * delta))
+	$PlayerCamera.zoom_y = lerp(.5, $PlayerCamera.zoom_y, pow(2, -30 * delta))
 
 func handle_states(delta):
 	if is_on_floor():
@@ -63,10 +71,13 @@ func handle_states(delta):
 	match state:
 		states.idle:
 			handle_movement(delta)
+			cameraZoom(delta)
 		states.launched, states.attached:
 			delete_spots()
 			_integrate_forces(delta)
-
+			cameraUnZoom(delta)
+	$PlayerCamera.set_zoom(Vector2($PlayerCamera.zoom_x, $PlayerCamera.zoom_y))
+	
 func _integrate_forces(delta):
 	match state:
 		states.attached:

@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://eikr8esi7an3"]
+[gd_scene load_steps=5 format=3 uid="uid://eikr8esi7an3"]
 
 [ext_resource type="SpriteFrames" uid="uid://dley03wocnt6g" path="res://Ressources/SpriteFrames/Player.tres" id="1_kwl2t"]
 [ext_resource type="Script" path="res://Ressources/Scripts/Player.gd" id="1_wgkwd"]
+[ext_resource type="Script" path="res://Ressources/Scripts/GameCamera.gd" id="3_u6str"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fcpxx"]
 size = Vector2(16, 34.5)
@@ -24,3 +25,6 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+
+[node name="PlayerCamera" type="Camera2D" parent="."]
+script = ExtResource("3_u6str")
