@@ -42,14 +42,16 @@ var angularVelocity
 func _physics_process(delta: float) -> void:
 	handle_states(delta)
 	
-		
 	
 
 func handle_states(delta):
 	if is_on_floor():
 		if Input.is_action_just_pressed("toggle_launch"):
 			delete_spots()
-			if state == states.idle: state = states.attached
+			if state == states.idle: 
+				state = states.attached
+				angle = 0
+				launchSpeed = 600
 			elif state == states.attached: state = states.idle
 			velocity = Vector2.ZERO
 	match state:
@@ -65,7 +67,7 @@ func _integrate_forces(delta):
 			animated_sprite.flip_h = angle < 0
 			var angleVariation = Input.get_action_strength("move_right") - Input.get_action_strength("move_left")
 			angle += angleVariation * delta * 30
-			var powerVariation = Input.get_action_strength("ui_up") - Input.get_action_strength("ui_down")
+			var powerVariation = Input.get_action_strength("launch_speed_up") - Input.get_action_strength("launch_speed_down")
 			launchSpeed += powerVariation * delta * 300
 			
 			angle = border(angle, minAngle, maxAngle)
@@ -85,8 +87,6 @@ func _integrate_forces(delta):
 			if is_on_floor():
 				state = states.idle
 				velocity = Vector2.ZERO
-				angle = 0
-				launchSpeed = 1000
 		_: pass
 	
 func draw_trajectory(V):
@@ -120,7 +120,6 @@ func border(myVar, minVal, maxVal):
 
 
 func handle_movement(delta) -> void:
-	angle = 0
 	var input_x = Input.get_action_strength("move_right") - Input.get_action_strength("move_left")
 	
 	if input_x == 0:
