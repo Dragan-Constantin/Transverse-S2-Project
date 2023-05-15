@@ -1,5 +1,8 @@
 extends CharacterBody2D
 
+signal balistaOn
+signal balistaOff
+
 const SPEED = 150.0
 const RUN_SPEED = 300.0
 const ACCELERATION = 500.0
@@ -52,7 +55,10 @@ func handle_states(delta):
 				state = states.attached
 				angle = 0
 				launchSpeed = 600
-			elif state == states.attached: state = states.idle
+				emit_signal("balistaOn")
+			elif state == states.attached: 
+				emit_signal("balistaOff")
+				state = states.idle
 			velocity = Vector2.ZERO
 	match state:
 		states.idle:
@@ -86,6 +92,7 @@ func _integrate_forces(delta):
 			move_and_slide()
 			if is_on_floor():
 				state = states.idle
+				emit_signal("balistaOff")
 				velocity = Vector2.ZERO
 		_: pass
 	

@@ -11,13 +11,14 @@ config_version=5
 [application]
 
 config/name="Projet Transverse"
+run/main_scene="res://Scenes/TestLevel.tscn"
 config/features=PackedStringArray("4.0", "Mobile")
 config/icon="res://icon.svg"
 
 [display]
 
-window/vsync/vsync_mode=2
 window/stretch/scale=2.0
+window/vsync/vsync_mode=2
 
 [input]
 
@@ -92,5 +93,5 @@ launch_speed_down={
 
 [rendering]
 
-renderer/rendering_method="mobile"
 textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="mobile"
