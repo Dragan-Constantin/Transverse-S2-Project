@@ -22,7 +22,7 @@ const trajectorySpotCount = 5
 const trajectoryTimeStep = .1
 const spotScene = preload("res://Scenes/utilities/Spot.tscn")
 
-
+var flyingSpeed = 0
 var state = states.idle
 var has_double_jump = true
 var is_glide = false
@@ -51,6 +51,7 @@ func _physics_process(delta: float) -> void:
 func cameraZoom(delta):
 	$PlayerCamera.zoom_x = lerp(1.0, $PlayerCamera.zoom_x, pow(2, -30 * delta))
 	$PlayerCamera.zoom_y = lerp(1.0, $PlayerCamera.zoom_y, pow(2, -30 * delta))
+	
 func cameraUnZoom(delta):
 	$PlayerCamera.zoom_x = lerp(.5, $PlayerCamera.zoom_x, pow(2, -30 * delta))
 	$PlayerCamera.zoom_y = lerp(.5, $PlayerCamera.zoom_y, pow(2, -30 * delta))
@@ -99,8 +100,11 @@ func _integrate_forces(delta):
 				position = Vector2(position.x, position.y-1)
 		states.launched:
 			velocity.y = velocity.y + gravity * delta
-			velocity.x = linearVelocity
+			flyingSpeed = velocity.x
 			move_and_slide()
+			if is_on_wall() and not is_on_floor():
+				velocity.x = -0.5* flyingSpeed
+				animated_sprite.flip_h = velocity.x < 0
 			if is_on_floor():
 				state = states.idle
 				emit_signal("balistaOff")
