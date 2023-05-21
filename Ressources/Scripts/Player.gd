@@ -43,6 +43,10 @@ var angularVelocity
 @onready var crouch_extents = Vector2(default_crouch_extents.x, default_crouch_extents.y)
 @onready var animated_sprite = $Sprite
 
+func _input(event):
+	if event.is_action_pressed("pause_ui"):
+		$PauseMenuUI.pause()
+
 func _physics_process(delta: float) -> void:
 	handle_states(delta)
 	

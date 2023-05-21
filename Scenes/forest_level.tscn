@@ -1,10 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://kds8tdksokka"]
+[gd_scene load_steps=5 format=3 uid="uid://kds8tdksokka"]
 
 [ext_resource type="PackedScene" uid="uid://bivlckvn27mlu" path="res://Scenes/Forest-TileMap.tscn" id="1_4qw67"]
 [ext_resource type="Texture2D" uid="uid://d5xf2y4d8ijo" path="res://Ressources/Assets/Backgrounds/forestdarkgreen13.png" id="2_45tc3"]
 [ext_resource type="PackedScene" uid="uid://cr3ogfskwonwn" path="res://Scenes/tilemaps/brics.tscn" id="2_k3r8u"]
 [ext_resource type="PackedScene" uid="uid://eikr8esi7an3" path="res://Scenes/Entities/Player.tscn" id="3_lldey"]
-[ext_resource type="PackedScene" uid="uid://cip1moa2uq7ot" path="res://Scenes/PauseMenu.tscn" id="5_bneqs"]
 
 [node name="ForestLevel" type="Node2D"]
 
@@ -27,10 +26,3 @@ texture = ExtResource("2_45tc3")
 [node name="Player" parent="." instance=ExtResource("3_lldey")]
 z_index = 1
 position = Vector2(134, -9)
-
-[node name="PauseMenuUI" parent="." instance=ExtResource("5_bneqs")]
-visible = false
-offset_left = 256.0
-offset_top = -128.0
-offset_right = 256.0
-offset_bottom = -128.0

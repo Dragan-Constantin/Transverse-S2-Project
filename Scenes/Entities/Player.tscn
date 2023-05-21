@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://eikr8esi7an3"]
+[gd_scene load_steps=6 format=3 uid="uid://eikr8esi7an3"]
 
 [ext_resource type="SpriteFrames" uid="uid://dley03wocnt6g" path="res://Ressources/SpriteFrames/Player.tres" id="1_kwl2t"]
 [ext_resource type="Script" path="res://Ressources/Scripts/Player.gd" id="1_wgkwd"]
 [ext_resource type="Script" path="res://Ressources/Scripts/GameCamera.gd" id="3_u6str"]
+[ext_resource type="PackedScene" uid="uid://cip1moa2uq7ot" path="res://Scenes/PauseMenu.tscn" id="4_vpmqj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fcpxx"]
 size = Vector2(16, 34.5)
@@ -31,3 +32,6 @@ limit_left = 0
 limit_smoothed = true
 position_smoothing_enabled = true
 script = ExtResource("3_u6str")
+
+[node name="PauseMenuUI" parent="." instance=ExtResource("4_vpmqj")]
+visible = false

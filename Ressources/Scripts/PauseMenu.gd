@@ -1,6 +1,7 @@
 extends Control
 
-@onready var Pause: Control = $"."
+@onready var resumeButton: Button = $"CenterContainer/PanelContainer/MarginContainer/VBoxContainer/Button-Resume"
+@onready var showPauseMenu: Control = $"."
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -12,13 +13,17 @@ func _process(delta):
 	pass
 
 
+func unpause():
+	get_tree().paused = false
+	showPauseMenu.visible = false
+	
+func pause():
+	get_tree().paused = true
+	showPauseMenu.visible = true
+
+
 func _on_button_resume_pressed():
-	Pause.visible = false
-
-
-func _input(event):
-	if event.is_action_pressed("pause_ui"):
-		Pause.visible = !Pause.visible
+	unpause()
 
 
 func _on_button_settings_pressed():
