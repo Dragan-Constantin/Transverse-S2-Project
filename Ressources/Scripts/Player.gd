@@ -8,7 +8,7 @@ signal balistaOff
 const SPEED = 150.0
 const RUN_SPEED = 300.0
 const ACCELERATION = 500.0
-const JUMP_VELOCITY = -400.0
+const JUMP_VELOCITY = -500.0
 const GLIDE_GRAVITY = 100.0
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 #const SpotScene = preload("res://Scenes/utilities/Spot.tscn")
@@ -24,7 +24,6 @@ const spotScene = preload("res://Scenes/utilities/Spot.tscn")
 
 var flyingSpeed = 0
 var state = states.idle
-var has_double_jump = true
 var is_glide = false
 var is_crouch = false
 
@@ -162,11 +161,8 @@ func handle_movement(delta) -> void:
 	
 
 func handle_jumping() -> void:
-	if is_on_floor():
-		has_double_jump = true
-	if Input.is_action_just_pressed("jump"):
-		if is_on_floor() or check_double_jump():
-			jump()
+	if Input.is_action_just_pressed("jump") and is_on_floor():
+		jump()
 
 func handle_crouching() -> void:
 	if Input.is_action_just_pressed("crouch"):
@@ -182,6 +178,8 @@ func handle_gliding() -> void:
 
 func apply_gravity() -> void:
 	var gravity_to_apply = gravity
+	if !(velocity.y <= 0 and Input.is_action_pressed("jump")):
+		gravity_to_apply *= 2
 	if is_glide:
 		gravity_to_apply = GLIDE_GRAVITY
 	velocity.y += gravity_to_apply * get_physics_process_delta_time()
@@ -189,14 +187,6 @@ func apply_gravity() -> void:
 func jump() -> void:
 	velocity.y = JUMP_VELOCITY
 
-func check_double_jump() -> bool:
-	if !is_on_floor():
-		if has_double_jump:
-			has_double_jump = false
-			return true
-	else:
-		has_double_jump = true
-	return false
 
 func is_falling() -> bool:
 	return velocity.y > 1
