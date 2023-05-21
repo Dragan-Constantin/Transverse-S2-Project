@@ -1,5 +1,9 @@
-Timer
+Control
+PathFollow2D
+Path2D
+Sprite2D
 Node
+Timer
 AudioStreamPlayer2D
 Button
 Label
@@ -16,7 +20,6 @@ Node2D
 HBoxContainer
 CheckButton
 OptionButton
-Control
 ColorRect
 Camera2D
 AnimatedSprite2D

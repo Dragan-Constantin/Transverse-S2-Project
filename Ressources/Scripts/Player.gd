@@ -26,11 +26,11 @@ var flyingSpeed = 0
 var state = states.idle
 var is_glide = false
 var is_crouch = false
-
+ 
 var launchSpeed = 500
 var angle = 0
-const minAngle = -60
-const maxAngle = 60
+const minAngle = -45
+const maxAngle = 45
 const minPower = 600
 const maxPower = 1000
 
@@ -70,6 +70,7 @@ func handle_states(delta):
 				state = states.attached
 				angle = 0
 				launchSpeed = 600
+				
 				emit_signal("balistaOn")
 			elif state == states.attached: 
 				emit_signal("balistaOff")
@@ -84,10 +85,13 @@ func handle_states(delta):
 			_integrate_forces(delta)
 			cameraUnZoom(delta)
 	$PlayerCamera.set_zoom(Vector2($PlayerCamera.zoom_x, $PlayerCamera.zoom_y))
-	
+	$Node/Control/Cannon.visible = state != states.idle
+	$Node/Control/Ballista.visible = $Node/Control/Cannon.visible
 func _integrate_forces(delta):
+	$Node/Control/Cannon.rotation_degrees = angle
 	match state:
 		states.attached:
+			$Node/Control.position = position
 			animated_sprite.flip_h = angle < 0
 			var angleVariation = Input.get_action_strength("move_right") - Input.get_action_strength("move_left")
 			angle += angleVariation * delta * 30
