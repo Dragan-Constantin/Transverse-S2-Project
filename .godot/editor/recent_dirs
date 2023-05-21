@@ -1,3 +1,5 @@
+res://Ressources/Assets/Tilesets/UIs
+res://Scenes/tilemaps
 res://Ressources/Assets/Backgrounds
 res://Scenes
 res://
@@ -8,6 +10,5 @@ res://Ressources/Assets/Tilesets/Terrains
 res://Scenes/Entities
 res://Ressources/Assets/Tilesets/Decorations
 res://Scenes/tilesets
-res://Scenes/tilemaps
 res://Ressources/Assets/Sprites/Player
 res://Ressources/SpriteFrames

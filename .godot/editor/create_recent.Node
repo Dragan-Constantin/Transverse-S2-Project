@@ -1,10 +1,10 @@
+TileMap
 TextureRect
 CanvasLayer
 RemoteTransform2D
 CharacterBody2D
 Node2D
 CenterContainer
-TileMap
 Button
 VBoxContainer
 HBoxContainer

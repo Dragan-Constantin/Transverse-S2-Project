@@ -90,6 +90,10 @@ launch_speed_down={
 ]
 }
 
+[physics]
+
+2d/default_gravity=1500.0
+
 [rendering]
 
 renderer/rendering_method="mobile"

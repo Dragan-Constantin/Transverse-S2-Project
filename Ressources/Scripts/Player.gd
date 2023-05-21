@@ -9,7 +9,7 @@ const SPEED = 150.0
 const RUN_SPEED = 300.0
 const ACCELERATION = 500.0
 const JUMP_VELOCITY = -500.0
-const GLIDE_GRAVITY = 100.0
+const GLIDE_GRAVITY = 50.0
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 #const SpotScene = preload("res://Scenes/utilities/Spot.tscn")
 
@@ -174,13 +174,16 @@ func handle_crouching() -> void:
 	update_crouch_collision()
 
 func handle_gliding() -> void:
-	is_glide = Input.is_action_pressed("jump") and !is_on_floor() and is_falling()
+	if Input.is_action_just_pressed("jump") and is_falling() and !is_on_floor():
+		is_glide = true
+	is_glide = Input.is_action_pressed("jump") and !is_on_floor() and is_falling() and is_glide
 
 func apply_gravity() -> void:
 	var gravity_to_apply = gravity
-	if !(velocity.y <= 0 and Input.is_action_pressed("jump")):
-		gravity_to_apply *= 2
-	if is_glide:
+	if velocity.y <= 0:
+		if  Input.is_action_pressed("jump"):
+			gravity_to_apply /= 1.5
+	elif is_glide:
 		gravity_to_apply = GLIDE_GRAVITY
 	velocity.y += gravity_to_apply * get_physics_process_delta_time()
 

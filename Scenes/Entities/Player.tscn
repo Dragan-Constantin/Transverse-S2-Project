@@ -27,6 +27,7 @@ offset_right = 40.0
 offset_bottom = 40.0
 
 [node name="PlayerCamera" type="Camera2D" parent="."]
+limit_left = 0
 limit_smoothed = true
 position_smoothing_enabled = true
 script = ExtResource("3_u6str")
