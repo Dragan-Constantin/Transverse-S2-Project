@@ -12,6 +12,7 @@ script = ExtResource("1_5rmyf")
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("5_j0okm")
+max_distance = 1e+06
 
 [node name="Tilemaps" type="Node2D" parent="."]
 
