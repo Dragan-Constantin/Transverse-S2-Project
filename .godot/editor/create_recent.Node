@@ -1,6 +1,9 @@
-CenterContainer
-CanvasLayer
 TextureRect
+CanvasLayer
+RemoteTransform2D
+CharacterBody2D
+Node2D
+CenterContainer
 TileMap
 Button
 VBoxContainer
@@ -13,9 +16,6 @@ PanelContainer
 Control
 ColorRect
 Camera2D
-Node2D
-RemoteTransform2D
 AnimatedSprite2D
 CollisionShape2D
-CharacterBody2D
 RayCast2D
