@@ -1,11 +1,17 @@
-[gd_scene load_steps=5 format=3 uid="uid://kds8tdksokka"]
+[gd_scene load_steps=7 format=3 uid="uid://kds8tdksokka"]
 
 [ext_resource type="PackedScene" uid="uid://bivlckvn27mlu" path="res://Scenes/Forest-TileMap.tscn" id="1_4qw67"]
+[ext_resource type="Script" path="res://Ressources/Scripts/forest_level.gd" id="1_5rmyf"]
 [ext_resource type="Texture2D" uid="uid://d5xf2y4d8ijo" path="res://Ressources/Assets/Backgrounds/forestdarkgreen13.png" id="2_45tc3"]
 [ext_resource type="PackedScene" uid="uid://cr3ogfskwonwn" path="res://Scenes/tilemaps/brics.tscn" id="2_k3r8u"]
 [ext_resource type="PackedScene" uid="uid://eikr8esi7an3" path="res://Scenes/Entities/Player.tscn" id="3_lldey"]
+[ext_resource type="AudioStream" uid="uid://c46w20lhk3scr" path="res://Ressources/Assets/Sounds/Music/Forest-Lvl1-OST.wav" id="5_j0okm"]
 
 [node name="ForestLevel" type="Node2D"]
+script = ExtResource("1_5rmyf")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_j0okm")
 
 [node name="Tilemaps" type="Node2D" parent="."]
 

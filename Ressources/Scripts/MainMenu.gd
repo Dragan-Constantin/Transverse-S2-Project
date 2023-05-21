@@ -7,6 +7,7 @@ extends CanvasLayer
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	$"Main/CenterContainer/PanelContainer/MarginContainer/VBoxContainer/Button-Start".grab_focus()
+	$"../AudioStreamPlayer2D".play()
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

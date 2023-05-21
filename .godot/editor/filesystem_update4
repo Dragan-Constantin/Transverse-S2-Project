@@ -10,3 +10,5 @@ res://Scenes/forest_level.tscn
 res://Scenes/Entities/Player.tscn
 res://Scenes/PauseMenu.tscn
 res://Ressources/Scripts/PauseMenu.gd
+res://Ressources/Scripts/MainMenu.gd
+res://Ressources/Scripts/forest_level.gd
