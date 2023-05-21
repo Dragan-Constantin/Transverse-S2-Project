@@ -1,7 +1,9 @@
-res://Scenes/Entities/Player.tscn
+res://Scenes/main_menu.tscn
 res://Ressources/Scripts/Player.gd
 res://Ressources/SpriteFrames/Player.tres
 res://Scenes/tilesets/tree.tres
 res://Scenes/tilesets/trunks.tres
+res://Scenes/Entities/Player.tscn
 res://base_level.tscn
 res://Scenes/TestLevel.tscn
+res://Ressources/Scripts/MainMenu.gd

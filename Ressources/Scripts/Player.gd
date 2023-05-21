@@ -49,12 +49,12 @@ func _physics_process(delta: float) -> void:
 	
 	
 func cameraZoom(delta):
-	$PlayerCamera.zoom_x = lerp(1.0, $PlayerCamera.zoom_x, pow(2, -30 * delta))
-	$PlayerCamera.zoom_y = lerp(1.0, $PlayerCamera.zoom_y, pow(2, -30 * delta))
+	$PlayerCamera.zoom_x = lerp(2.0, $PlayerCamera.zoom_x, pow(2, -30 * delta))
+	$PlayerCamera.zoom_y = lerp(2.0, $PlayerCamera.zoom_y, pow(2, -30 * delta))
 	
 func cameraUnZoom(delta):
-	$PlayerCamera.zoom_x = lerp(.5, $PlayerCamera.zoom_x, pow(2, -30 * delta))
-	$PlayerCamera.zoom_y = lerp(.5, $PlayerCamera.zoom_y, pow(2, -30 * delta))
+	$PlayerCamera.zoom_x = lerp(1.0, $PlayerCamera.zoom_x, pow(2, -30 * delta))
+	$PlayerCamera.zoom_y = lerp(1.0, $PlayerCamera.zoom_y, pow(2, -30 * delta))
 
 func handle_states(delta):
 	if is_on_floor():
