@@ -1,9 +1,10 @@
 2a60927148abd1d33b818b535e306557
-::res://::1684691942
+::res://::1684699900
 base_level.tscn::PackedScene::8755352870800512712::1684691641::0::1::::<><>::
 character.gd::GDScript::-1::1684691641::0::1::::<>CharacterBody2D<>::
 CONTRIBUTORS.md::TextFile::-1::1684691569::0::1::::<><>::
 default_env.tres::Environment::-1::1684691569::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1684699900::0::1::::<><>::
 icon.png::CompressedTexture2D::3082824726823593665::1684691569::1684691942::1::::<><>::
 icon.svg::CompressedTexture2D::1650710061987202525::1684691641::1684691641::1::::<><>::
 README.md::TextFile::-1::1684691569::0::1::::<><>::
@@ -72,7 +73,7 @@ LobsterTwo-BoldItalic.ttf::FontFile::6343608425505299428::1684691640::1684691640
 LobsterTwo-Italic.ttf::FontFile::7537479953779019393::1684691640::1684691640::1::::<><>::
 LobsterTwo-Regular.ttf::FontFile::3616223762590401458::1684691640::1684691640::1::::<><>::
 OFL.txt::TextFile::-1::1684691640::0::1::::<><>::
-::res://addons/gut/gui/::1684691640
+::res://addons/gut/gui/::1684700560
 arrow.png::CompressedTexture2D::2562825405179468261::1684691640::1684691640::1::::<><>::
 BottomPanelShortcuts.gd::GDScript::-1::1684691640::0::1::::<>RefCounted<>::
 BottomPanelShortcuts.tscn::PackedScene::-1::1684691640::0::1::::<><>::res://addons/gut/gui/ShortcutButton.tscn<>res://addons/gut/gui/BottomPanelShortcuts.gd
@@ -80,7 +81,7 @@ GutBottomPanel.gd::GDScript::-1::1684691640::0::1::::<>RefCounted<>::
 GutBottomPanel.tscn::PackedScene::-1::1684691640::0::1::::<><>::res://addons/gut/gui/GutBottomPanel.gd<>res://addons/gut/gui/BottomPanelShortcuts.tscn<>res://addons/gut/gui/RunAtCursor.tscn<>res://addons/gut/gui/play.png
 GutRunner.gd::GDScript::-1::1684691640::0::1::::<>Node2D<>::
 GutRunner.tscn::PackedScene::-1::1684691640::0::1::::<><>::res://addons/gut/gui/GutRunner.gd
-GutSceneTheme.tres::Theme::-1::1684691640::0::1::::<><>::
+GutSceneTheme.tres::Theme::4649684604229826819::1684700560::0::1::::<><>::
 gut_config_gui.gd::GDScript::-1::1684691640::0::1::::<>RefCounted<>::
 play.png::CompressedTexture2D::2568202467957674932::1684691640::1684691640::1::::<><>::
 RunAtCursor.gd::GDScript::-1::1684691640::0::1::::<>RefCounted<>::
@@ -94,6 +95,7 @@ LDtk.gd::GDScript::-1::1684691640::0::1::::<>RefCounted<>::
 LDtkImporter.gd::GDScript::-1::1684691640::0::1::::<>RefCounted<>::
 LDtkImporterPlugin.gd::GDScript::-1::1684691640::0::1::::<>RefCounted<>::
 plugin.cfg::TextFile::-1::1684691640::0::1::::<><>::
+::res://output/::1684700169
 ::res://Ressources/::1684691640
 ::res://Ressources/Assets/::1684697169
 ::res://Ressources/Assets/Backgrounds/::1684691944
@@ -106,10 +108,13 @@ icenwater.png::CompressedTexture2D::3061700736520789583::1684691640::1684691942:
 04B_30__.TTF::FontFile::1174192981003150347::1684691640::1684691942::1::::<><>::
 ::res://Ressources/Assets/LDTK TestMaps/::1684691640
 ::res://Ressources/Assets/Sounds/::1684697191
-::res://Ressources/Assets/Sounds/Music/::1684697506
+::res://Ressources/Assets/Sounds/Music/::1684697574
 Forest-Lvl1-OST.wav::AudioStreamWAV::6873698863950423613::1684697326::1684697574::1::::<><>::
 TitleScreen-OST.wav::AudioStreamWAV::8182386425805403830::1684697336::1684697574::1::::<><>::
-::res://Ressources/Assets/Sounds/SFXs/::1684697182
+::res://Ressources/Assets/Sounds/SFXs/::1684702512
+grass 3 single step 3.wav::AudioStreamWAV::1757300759340315657::1683451204::1684701844::1::::<><>::
+WHSH_Whoosh Short 06_JSE_TW1.wav::AudioStreamWAV::2852687920153900066::1683450723::1684701844::1::::<><>::
+W_a_P_Spell_Whoosh_19.wav::AudioStreamWAV::1539734454559716148::1684702421::1684702522::1::::<><>::
 ::res://Ressources/Assets/Sprites/::1684691640
 ::res://Ressources/Assets/Sprites/Player/::1684691640
 AnimationSheet_Character.png::CompressedTexture2D::5070983182852734367::1684691640::1684691640::1::::<><>::
@@ -138,26 +143,29 @@ Snow.png::CompressedTexture2D::8850562917062473705::1684691640::1684691640::1:::
 Base-01.png::CompressedTexture2D::7382048782687873296::1684691640::1684691640::1::::<><>::
 ::res://Ressources/Assets/utilities/::1684691640
 spot_red.png::CompressedTexture2D::638302782439405355::1684691640::1684691640::1::::<><>::
-::res://Ressources/Scripts/::1684692005
+::res://Ressources/Scripts/::1684702067
 GameCamera.gd::GDScript::-1::1684691640::0::1::::<>Camera2D<>::
-MainMenu.gd::GDScript::-1::1684691640::0::1::::<>CanvasLayer<>::
-PauseMenu.gd::GDScript::-1::1684692005::0::1::::<>Control<>::
-Player.gd::GDScript::-1::1684691987::0::1::::<>CharacterBody2D<>::
+MainMenu.gd::GDScript::-1::1684698713::0::1::::<>CanvasLayer<>::
+PauseMenu.gd::GDScript::-1::1684698842::0::1::::<>Control<>::
+Player.gd::GDScript::-1::1684702067::0::1::::<>CharacterBody2D<>::
+forest_level.gd::GDScript::-1::1684699108::0::1::::<>Node2D<>::
+Camera2D.gd::GDScript::-1::1684700560::0::1::::<>RefCounted<>::
 ::res://Ressources/SpriteFrames/::1684691988
 Player.tres::SpriteFrames::7941100200066719800::1684691988::0::1::::<><>::uid://ceiol8ctub7o2
-::res://Scenes/::1684697075
+::res://Scenes/::1684702068
 camera_2d.tscn::PackedScene::4636470038838887010::1684691640::0::1::::<><>::
-Forest-TileMap.tscn::PackedScene::2991955382443264074::1684697075::0::1::::<><>::uid://edt3lu7rdsr0
-forest_level.tscn::PackedScene::709234409768197516::1684697075::0::1::::<><>::uid://bivlckvn27mlu<>uid://d5xf2y4d8ijo<>uid://cr3ogfskwonwn<>uid://eikr8esi7an3
-main_menu.tscn::PackedScene::4470611577307214642::1684697075::0::1::::<><>::uid://bxbst5p48f0a6<>uid://qy110uf2qlpr<>res://Ressources/Scripts/MainMenu.gd
-PauseMenu.tscn::PackedScene::5366918590721196175::1684697075::0::1::::<><>::uid://qy110uf2qlpr<>res://Ressources/Scripts/PauseMenu.gd
-TestLevel.tscn::PackedScene::3875153122250209365::1684697075::0::1::::<><>::uid://btrtk0lrb0uik<>uid://b7helrqhh1q4f<>uid://eikr8esi7an3<>uid://byln88eni63fg
-::res://Scenes/Entities/::1684697075
-Player.tscn::PackedScene::297909665288214550::1684697075::0::1::::<><>::uid://dley03wocnt6g<>res://Ressources/Scripts/Player.gd<>res://Ressources/Scripts/GameCamera.gd<>uid://cip1moa2uq7ot
-::res://Scenes/tilemaps/::1684697075
+Forest-TileMap.tscn::PackedScene::2991955382443264074::1684702068::0::1::::<><>::uid://edt3lu7rdsr0
+forest_level.tscn::PackedScene::709234409768197516::1684702068::0::1::::<><>::uid://bivlckvn27mlu<>res://Ressources/Scripts/forest_level.gd<>uid://d5xf2y4d8ijo<>uid://cr3ogfskwonwn<>uid://eikr8esi7an3<>uid://c46w20lhk3scr
+main_menu.tscn::PackedScene::4470611577307214642::1684702068::0::1::::<><>::uid://bxbst5p48f0a6<>uid://qy110uf2qlpr<>res://Ressources/Scripts/MainMenu.gd<>uid://dotuydtoaa43k
+PauseMenu.tscn::PackedScene::5366918590721196175::1684699088::0::1::::<><>::uid://qy110uf2qlpr<>res://Ressources/Scripts/PauseMenu.gd
+TestLevel.tscn::PackedScene::3875153122250209365::1684702068::0::1::::<><>::uid://btrtk0lrb0uik<>uid://b7helrqhh1q4f<>uid://eikr8esi7an3<>uid://byln88eni63fg
+::res://Scenes/Entities/::1684702134
+Player.tscn::PackedScene::297909665288214550::1684702133::0::1::::<><>::uid://dley03wocnt6g<>res://Ressources/Scripts/Player.gd<>res://Ressources/Scripts/GameCamera.gd<>uid://cip1moa2uq7ot<>uid://bgv4mamu0ms0y<>uid://0biqsxw5jhyv
+testPlayer.gd::GDScript::-1::1684700560::0::1::::<>RefCounted<>::
+::res://Scenes/tilemaps/::1684702068
 arbres.tscn::PackedScene::3756275946287691042::1684691640::0::1::::<><>::uid://gbais8ue1ppu
 Base==.tscn::PackedScene::1157088505549713981::1684691640::0::1::::<><>::uid://b7helrqhh1q4f<>uid://eikr8esi7an3<>res://Scenes/Entities/testPlayer.gd<>res://Ressources/Scripts/Camera2D.gd
-brics.tscn::PackedScene::6024715329916136125::1684697075::0::1::::<><>::uid://ddf6jaiogslfk
+brics.tscn::PackedScene::6024715329916136125::1684702068::0::1::::<><>::uid://ddf6jaiogslfk
 tile_map.tscn::PackedScene::4647177754034842303::1684691640::0::1::::<><>::uid://b52ufk1etvslv<>uid://o7k76jqg6cxt
 trees.tscn::PackedScene::4379258823585789592::1684691640::0::1::::<><>::
 trunks.tscn::PackedScene::4094511078457735992::1684691640::0::1::::<><>::uid://dmyvoryuamr7x

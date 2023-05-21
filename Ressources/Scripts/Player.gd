@@ -42,6 +42,9 @@ var angularVelocity
 @onready var default_crouch_extents = collision_shape.shape.extents
 @onready var crouch_extents = Vector2(default_crouch_extents.x, default_crouch_extents.y)
 @onready var animated_sprite = $Sprite
+@onready var jumpSFX: AudioStreamPlayer2D = $SFX_Player2D/Jump_SFX
+@onready var crouchSFX: AudioStreamPlayer2D = $SFX_Player2D/Crouch_SFX
+@onready var walkSFX: AudioStreamPlayer2D = $SFX_Player2D/Walk_SFX
 
 func _input(event):
 	if event.is_action_pressed("pause_ui"):
@@ -146,7 +149,6 @@ func border(myVar, minVal, maxVal):
 
 func handle_movement(delta) -> void:
 	var input_x = Input.get_action_strength("move_right") - Input.get_action_strength("move_left")
-	
 	if input_x == 0:
 		velocity.x = lerp(0.0, velocity.x, pow(2, -50 * delta))
 	var speed = 0
@@ -156,13 +158,20 @@ func handle_movement(delta) -> void:
 			speed = RUN_SPEED
 	velocity.x += input_x * ACCELERATION * delta
 	velocity.x = clamp(velocity.x, -speed, speed)
+	# if Input.is_action_pressed("move_left") or Input.is_action_pressed("move_right"):
+	# 	if velocity.x != 0 and is_on_floor():
+	# 		$SFX_Player2D/Timer.start()
+	# 		if $SFX_Player2D/Timer.time_left==0:
+	# 			walkSFX.play()
+
+		
 	handle_crouching()
 	handle_jumping()
 	handle_gliding()
 	apply_gravity()
 	move_and_slide()
 	update_animation()
-	
+
 
 func handle_jumping() -> void:
 	if Input.is_action_just_pressed("jump") and is_on_floor():
@@ -172,6 +181,7 @@ func handle_crouching() -> void:
 	if Input.is_action_just_pressed("crouch"):
 		animated_sprite.play("crouch")
 	if Input.is_action_pressed("crouch") and is_on_floor():
+		crouchSFX.play()
 		is_crouch = true
 	else:
 		is_crouch = false
@@ -193,6 +203,7 @@ func apply_gravity() -> void:
 
 func jump() -> void:
 	velocity.y = JUMP_VELOCITY
+	jumpSFX.play()
 
 
 func is_falling() -> bool:

@@ -12,3 +12,4 @@ res://Scenes/PauseMenu.tscn
 res://Ressources/Scripts/PauseMenu.gd
 res://Ressources/Scripts/MainMenu.gd
 res://Ressources/Scripts/forest_level.gd
+res://addons/gut/gui/GutSceneTheme.tres
