@@ -1,11 +1,13 @@
-res://Scenes/Entities/Player.tscn
 res://Ressources/Scripts/Player.gd
 res://Ressources/SpriteFrames/Player.tres
 res://Scenes/tilesets/tree.tres
 res://Scenes/tilesets/trunks.tres
-res://base_level.tscn
-res://Scenes/main_menu.tscn
-res://Scenes/Forest-TileMap.tscn
+res://Scenes/PauseMenu.tscn
+res://Ressources/Scripts/PauseMenu.gd
+res://Ressources/Scripts/MainMenu.gd
+res://Scenes/Entities/Player.tscn
 res://Scenes/TestLevel.tscn
 res://Scenes/forest_level.tscn
+res://Scenes/Forest-TileMap.tscn
 res://Scenes/tilemaps/brics.tscn
+res://Scenes/main_menu.tscn
