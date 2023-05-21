@@ -12,3 +12,4 @@ res://Scenes/Entities/Player.tscn
 res://Ressources/Scripts/forest_level.gd
 res://Ressources/Scripts/MainMenu.gd
 res://Ressources/Scripts/PauseMenu.gd
+res://Scenes/main_menu.tscn

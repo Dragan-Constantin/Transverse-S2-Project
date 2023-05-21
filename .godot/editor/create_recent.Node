@@ -1,3 +1,5 @@
+Label
+RichTextLabel
 Control
 PathFollow2D
 Path2D
@@ -6,7 +8,6 @@ Node
 Timer
 AudioStreamPlayer2D
 Button
-Label
 VBoxContainer
 MarginContainer
 PanelContainer

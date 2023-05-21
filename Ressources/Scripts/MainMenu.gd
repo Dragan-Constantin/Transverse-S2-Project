@@ -2,6 +2,7 @@ extends CanvasLayer
 
 @onready var main: Control = $Main
 @onready var settings: Control = $Settings
+@onready var credits: Control = $Credits
 @onready var fullscreen = false
 
 # Called when the node enters the scene tree for the first time.
@@ -19,11 +20,15 @@ func _on_button_start_pressed():
 func _on_button_options_pressed():
 	main.visible = false
 	settings.visible = true
+	credits.visible = false
 	$Settings/CenterContainer/PanelContainer/MarginContainer/VBoxContainer/VBoxContainer/HBoxContainer/CheckButton.grab_focus()
 
 
 func _on_button_credits_pressed():
-	pass # Replace with function body.
+	main.visible = false
+	settings.visible = false
+	credits.visible = true
+	
 
 
 func _on_button_quit_pressed():
@@ -33,6 +38,7 @@ func _on_button_quit_pressed():
 func _on_button_back_pressed():
 	main.visible = true
 	settings.visible = false
+	credits.visible = false
 	$"Main/CenterContainer/PanelContainer/MarginContainer/VBoxContainer/Button-Start".grab_focus()
 
 
