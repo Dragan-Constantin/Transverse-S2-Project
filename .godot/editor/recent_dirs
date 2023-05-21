@@ -1,5 +1,6 @@
-res://Ressources/Scripts
+res://
 res://Scenes
+res://Ressources/Scripts
 res://Ressources/Assets/Backgrounds
 res://Scenes/utilities
 res://Ressources/Assets/utilities
@@ -10,4 +11,3 @@ res://Scenes/tilesets
 res://Scenes/tilemaps
 res://Ressources/Assets/Sprites/Player
 res://Ressources/SpriteFrames
-res://
