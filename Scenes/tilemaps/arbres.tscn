@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://btrtk0lrb0uik"]
+
+[ext_resource type="TileSet" uid="uid://gbais8ue1ppu" path="res://Scenes/tilesets/tree.tres" id="1_fvss6"]
+
+[node name="Leaves" type="TileMap"]
+tile_set = ExtResource("1_fvss6")
+format = 2
