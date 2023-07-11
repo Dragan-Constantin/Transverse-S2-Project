@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://obdy0v8443ra"]
+
+[ext_resource type="Texture2D" uid="uid://jdg0vekfcymt" path="res://Ressources/Assets/utilities/spot_red.png" id="1"]
+
+[node name="Spot" type="Sprite2D"]
+scale = Vector2(0.0833334, 0.0833333)
+texture = ExtResource("1")

@@ -1,0 +1,76 @@
+[gd_scene load_steps=3 format=3 uid="uid://cip1moa2uq7ot"]
+
+[ext_resource type="FontFile" uid="uid://qy110uf2qlpr" path="res://Ressources/Assets/Fonts/04B_30__.TTF" id="1_spob0"]
+[ext_resource type="Script" path="res://Ressources/Scripts/PauseMenu.gd" id="1_xg6dl"]
+
+[node name="PauseMenuUI" type="Control"]
+process_mode = 3
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xg6dl")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="CenterContainer"]
+custom_minimum_size = Vector2(512, 256)
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="CenterContainer/PanelContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 128
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 128
+theme_override_constants/margin_bottom = 16
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer/PanelContainer/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Label" type="Label" parent="CenterContainer/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("1_spob0")
+theme_override_font_sizes/font_size = 50
+text = "Pause"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button-Resume" type="Button" parent="CenterContainer/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("1_spob0")
+text = "Resume"
+
+[node name="Button-Settings" type="Button" parent="CenterContainer/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("1_spob0")
+disabled = true
+text = "Settings"
+
+[node name="Button-QuitMenu" type="Button" parent="CenterContainer/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("1_spob0")
+text = "Quit to Menu"
+
+[node name="Button-QuitGame" type="Button" parent="CenterContainer/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("1_spob0")
+text = "Quit to Desktop"
+
+[connection signal="pressed" from="CenterContainer/PanelContainer/MarginContainer/VBoxContainer/Button-Resume" to="." method="_on_button_resume_pressed"]
+[connection signal="pressed" from="CenterContainer/PanelContainer/MarginContainer/VBoxContainer/Button-Settings" to="." method="_on_button_settings_pressed"]
+[connection signal="pressed" from="CenterContainer/PanelContainer/MarginContainer/VBoxContainer/Button-QuitMenu" to="." method="_on_button_quit_menu_pressed"]
+[connection signal="pressed" from="CenterContainer/PanelContainer/MarginContainer/VBoxContainer/Button-QuitGame" to="." method="_on_button_quit_game_pressed"]

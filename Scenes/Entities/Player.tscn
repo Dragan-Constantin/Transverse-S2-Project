@@ -1,0 +1,77 @@
+[gd_scene load_steps=11 format=3 uid="uid://eikr8esi7an3"]
+
+[ext_resource type="SpriteFrames" uid="uid://dley03wocnt6g" path="res://Ressources/SpriteFrames/Player.tres" id="1_kwl2t"]
+[ext_resource type="Script" path="res://Ressources/Scripts/Player.gd" id="1_wgkwd"]
+[ext_resource type="Script" path="res://Ressources/Scripts/GameCamera.gd" id="3_u6str"]
+[ext_resource type="PackedScene" uid="uid://cip1moa2uq7ot" path="res://Scenes/PauseMenu.tscn" id="4_vpmqj"]
+[ext_resource type="AudioStream" uid="uid://v64g37df0i57" path="res://Ressources/Assets/Sounds/SFXs/W_a_P_Spell_Whoosh_19.wav" id="5_mlg6v"]
+[ext_resource type="AudioStream" uid="uid://bgv4mamu0ms0y" path="res://Ressources/Assets/Sounds/SFXs/WHSH_Whoosh Short 06_JSE_TW1.wav" id="6_o8aar"]
+[ext_resource type="AudioStream" uid="uid://0biqsxw5jhyv" path="res://Ressources/Assets/Sounds/SFXs/grass 3 single step 3.wav" id="7_xxtrw"]
+[ext_resource type="Texture2D" uid="uid://sbrki7sj4x1a" path="res://Ressources/Assets/Sprites/specials/Ballista/cannon.png" id="8_4070o"]
+[ext_resource type="Texture2D" uid="uid://w0cktda8aiaa" path="res://Ressources/Assets/Sprites/specials/Ballista/ballistabase.png" id="9_nbcsq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fcpxx"]
+size = Vector2(16, 34.5)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_wgkwd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -17)
+shape = SubResource("RectangleShape2D_fcpxx")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -21)
+scale = Vector2(1.32813, 1.32813)
+sprite_frames = ExtResource("1_kwl2t")
+animation = &"fall"
+
+[node name="trajectory" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PlayerCamera" type="Camera2D" parent="."]
+limit_left = 0
+limit_smoothed = true
+position_smoothing_enabled = true
+script = ExtResource("3_u6str")
+
+[node name="PauseMenuUI" parent="." instance=ExtResource("4_vpmqj")]
+visible = false
+
+[node name="SFX_Player2D" type="Node" parent="."]
+
+[node name="Crouch_SFX" type="AudioStreamPlayer2D" parent="SFX_Player2D"]
+stream = ExtResource("6_o8aar")
+
+[node name="Walk_SFX" type="AudioStreamPlayer2D" parent="SFX_Player2D"]
+stream = ExtResource("7_xxtrw")
+
+[node name="Jump_SFX" type="AudioStreamPlayer2D" parent="SFX_Player2D"]
+stream = ExtResource("5_mlg6v")
+attenuation = 7.5
+
+[node name="Timer" type="Timer" parent="SFX_Player2D"]
+wait_time = 0.6
+autostart = true
+
+[node name="Node" type="Node" parent="."]
+
+[node name="Control" type="Control" parent="Node"]
+z_index = 2
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Cannon" type="Sprite2D" parent="Node/Control"]
+scale = Vector2(1.67033, 1.67033)
+texture = ExtResource("8_4070o")
+
+[node name="Ballista" type="Sprite2D" parent="Node/Control"]
+position = Vector2(-44, -98)
+scale = Vector2(1.53125, 1.53125)
+texture = ExtResource("9_nbcsq")
+centered = false
