@@ -30,8 +30,8 @@ Bucurați-vă de joc! 😄
 
 <p align="center">
   <img align="center" alt="Website" width="18px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/yellow-globe-icon.png?token=AWLZ6NKYWPDI7QBJS4EPMOLB2RNHO">
-  <a href="link to website" target="_blank">Site web</a> | 📖
-  <a href="link to wiki" target="_blank">Manual de instrucțiuni</a>
+  <a href="https://dragan-constantin.github.io/Transverse-S2-Project/" target="_blank">Website</a>
+  <img align="center" alt="Website" width="18px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/yellow-globe-icon.png?token=AWLZ6NKYWPDI7QBJS4EPMOLB2RNHO">
 </p>
 
 <br>
