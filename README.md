@@ -8,11 +8,11 @@
   <img align="center" alt="Platforms" src="https://img.shields.io/badge/Platform-windows%20%20%7C%20%20linux-lightgrey?style=for-the-badge">
 </p>
 
-<h2 align="left">Downloads</h2>
+<!--<h2 align="left">Downloads</h2>
 <p align="left">
   • <a href="link" target="_blank">Latest release</a><br>
   • <a href="link" target="_blank">Latest nightly build</a><br>
-</p>
+</p>-->
 <p align="center">This README is also available in:
   <img align="center" alt="French Flag" width="18px" src="https://raw.githubusercontent.com/Dragan-Constantin/myicons/main/flag-France.png?token=AWLZ6NKLYR42NJENNEPLOQLB2RO5U">
   <a href="https://github.com/Dragan-Constantin/Transverse-S2-Project/blob/main/README_Fr.md" target="_blank">French</a> |
